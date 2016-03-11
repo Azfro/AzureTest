@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moggybook Registration</title>
 
-</body>
+        <script>
+            function testResults(form) {
+                var username = form.username.value;
+                alert ("You registered " + username);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Moggybook!</h1>
+        <form>
+            <table border="0" cellspacing="5" cellpadding="5">
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="textarea" name="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Breed:</td>
+                    <td>
+                        <input type="textarea" name="breed">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="textarea" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Homepage:</td>
+                    <td>
+                        <input type="textarea" name="homepage">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="date" name="dateOfBirth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>About:</td>
+                    <td>
+                        <input type="textarea" name="about">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="Submit" onclick="testResults(this.form)"/>
+        </form>
+    </body>
 </html>
