@@ -1,0 +1,25 @@
+header {
+    padding: 10px;
+    height: 100px;
+    width: 800px;
+}
+#logo {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    width: 200px;
+}
+#site-title {
+    text-align: center;
+}
+nav {
+    padding: 10px;
+    width: 800px;
+    height: auto;
+}
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
