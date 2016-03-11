@@ -1,8 +1,14 @@
+header, section, nav, aside, footer, div {
+    font-family: sans-serif;
+    border: 1px dotted #000;
+    margin: 10px;
+}
+
 header {
     display: inline-block;
     padding: 10px;
     height: 100px;
-    width: 1055px;
+    width: 1075px;
 }
 #logo {
     float: left;
@@ -16,7 +22,7 @@ header {
 }
 nav {
     padding: 10px;
-    width: 1055px;
+    width: 1075px;
     height: auto;
 }
 li {
@@ -26,22 +32,23 @@ li {
     text-align: center;
 }
 #content {
-    padding: 0px;
+    padding: 10px;
     width: 1075px;
-    height: 775px;
+    height: 625px;
 }
 #main {
-    padding: 0px;
+    padding: 0;
     float: left;
     width: auto;
-    height: 750px;
+    height: auto;
+    max-height: 600px;
 }
 #main-image {
     padding: 0;
 }
 aside {
     float: right;
-    padding: 0;
+    padding: 10px;
     width: auto;
     height: auto;
 }
@@ -57,10 +64,11 @@ aside {
 .image-thumbnail {
     width: 100px;
     height: 100px;
-    padding: 0;
+    padding: 0px;
 }
 footer {
     display: inline-block;
-    width: 1055px;
+    width: 1075px;
     text-align: center;
+    padding: 10px;
 }
