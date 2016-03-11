@@ -34,7 +34,7 @@ li {
     padding: 0px;
     float: left;
     width: auto;
-    height: 375px;
+    height: 750px;
 }
 #main-image {
     padding: 0;
@@ -43,6 +43,7 @@ aside {
     float: right;
     padding: 0;
     width: auto;
+    height: auto;
 }
 #image-grid {
     padding: 0;
